@@ -14,6 +14,10 @@ const options = {
                 url: "http://localhost:3000",
                 description: "Servidor de desarrollo",
             },
+            {
+                url: "https://ecommerce-javascript-clase5-backend.onrender.com",
+                description: "Servidor de producción",
+            },
         ],
     },
     apis: ["./src/routes/*.js"], // Archivos que contienen anotaciones swagger
