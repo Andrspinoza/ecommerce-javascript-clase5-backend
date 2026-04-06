@@ -6,11 +6,10 @@ import productRouter from "./routes/productRoutes.js";
 import swaggerDocs from "./config/swagger.js";
 import cors from "cors";
 
-app.use(cors());
-
 const app = express();
 const port = process.env.PORT || 3000;
 
+app.use(cors());
 app.use(express.json());
 
 conectar();
